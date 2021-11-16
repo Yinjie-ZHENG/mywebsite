@@ -58,6 +58,7 @@ export default class DisplayHomepage extends React.Component {
     const  issueslength  = 25 - this.state.issues.length;
       return (
         <React.Fragment>
+        
         <h1 >Homepage</h1>
         <Clock />
         <h1 >Now available freeslots: {issueslength}</h1>

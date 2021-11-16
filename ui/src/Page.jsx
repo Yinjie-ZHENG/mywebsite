@@ -2,13 +2,17 @@ import React from 'react';
 
 import Contents from './Contents.jsx';
 
+
+
+
 function NavBar() {
   return (
-    <nav>
-      <a href="/#/homepage">Homepage</a>
-      {' | '}
-      <a href="/#/issues">Admin Page</a>
-      {' | '}
+    <nav className="nav-a">
+      
+      <li className='nav-li'><a><img src={'./cupcake.png'} alt="" /></a></li>
+      <li className='nav-li'><a href="/#/homepage"  className="navselect">Homepage</a></li>
+      <li className='nav-li'><a href="/#/issues" className="navselect">Admin Page</a></li>
+      
     </nav>
   );
 }
@@ -21,3 +25,4 @@ export default function Page() {
     </div>
   );
 }
+ 
